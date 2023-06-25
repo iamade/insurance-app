@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Blimone';
+    src: local('../fonts/Blimone Bold'), local('Blimone-Bold'),
+        url('../fonts/Blimone-Bold.woff2') format('woff2'),
+        url('../fonts/Blimone-Bold.woff') format('woff'),
+        url('../fonts/Blimone-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+  }
