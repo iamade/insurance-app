@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" type="text/css" href="css/default.css" />
+
+    <title>Darcy's Insurance Products</title>
+  </head>
+  <body>
+    <div class="primary-container">
+      <section class="main-container">
+        <div class="my-5">
+          <div class="my-4 greeting-wrapper"></div>
+
+          <div class="intro-wrapper">
+            <div class="nav-wrapper">
+              <div>
+                <img
+                  src="images/logo.png"
+                  class="mr-auto"
+                  routerLink="/"
+                  style="max-height: 70px; cursor: pointer"
+                  alt="logo"
+                />
+              </div>
+              <div id="theme-options-wrapper">
+                <nav
+                  class="navbar navbar-expand-lg navbar-dark p-2"
+                  data-aos="fade-down"
+                >
+                  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a
+                          class="nav-link dropdown-toggle"
+                          href="#services"
+                          id="navbarDropdownMenuLink"
+                          role="button"
+                          data-bs-toggle="dropdown"
+                          aria-expanded="false"
+                        >
+                          Services
+                        </a>
+                        <ul
+                          class="dropdown-menu"
+                          aria-labelledby="navbarDropdownMenuLink"
+                        >
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li>
+                            <a class="dropdown-item" href="#">Another action</a>
+                          </li>
+                          <li>
+                            <a class="dropdown-item" href="#"
+                              >Something else here</a
+                            >
+                          </li>
+                        </ul>
+                      </li>
+
+                      <li class="nav-item">
+                        <a class="nav-link" href="#about3">About Us</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#blog">Blog</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#reviews">Career</a>
+                      </li>
+                    </ul>
+                  </div>
+                </nav>
+              </div>
+
+              <ul id="navigation">
+                <div class="navigation">
+                  <button class="btn btn-main" type="submit">Contact us</button>
+                  <button class="btn btn-none login" routerLink="/login">
+                    <img
+                      src="images/key.png"
+                      class="mx-2"
+                      height="25"
+                      width="25"
+                    />
+                    Login
+                  </button>
+                </div>
+              </ul>
+            </div>
+
+            <div class="left-column col-md-4">
+              <img src="images/company.png" height="520px" width="650px" />
+              <!-- <h1>Darcy's Insurance Policy</h1> -->
+            </div>
+            <div class="middle-column col-md-7 my-4">
+              <div id="preview">
+                <img
+                  class="mb-2"
+                  src="images/star.png"
+                  height="40px"
+                  width="40px"
+                />
+                <p>
+                  Our <a href="" class="link">plans</a> are saving policyholders
+                  30% - 60% on premiums
+                </p>
+              </div>
+              <div id="preview" class="my-5">
+                <img
+                  class="mb-2"
+                  src="images/star.png"
+                  height="40px"
+                  width="40px"
+                />
+                <p>
+                  We offer a choice of low dedactibles and include no cost
+                  value-added services.
+                </p>
+              </div>
+
+              <img
+                id="company-namec"
+                class="mb-2"
+                src="images/arrow.png"
+                height="140px"
+                width="50px"
+              />
+            </div>
+            <div class="right-column col-md-4">
+              <img
+                id="company-namec"
+                src="images/ballons.png"
+                height="525px"
+                width="250px"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="main-container">
+        <div class="s2">
+          <div class="post-wrapper">
+            <div>
+              <div class="post">
+                <img
+                  class=""
+                  src="images/home-insurance.png"
+                  height="400px"
+                  width="550px"
+                />
+              </div>
+            </div>
+
+            <div>
+              <div class="post">
+                <img
+                  class=""
+                  src="images/diney.png"
+                  height="400px"
+                  width="200px"
+                />
+              </div>
+            </div>
+
+            <div>
+              <div class="post">
+                <img
+                  class="post-align"
+                  src="images/best-choice.png"
+                  height="400px"
+                  width="400px"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="post-wrapper">
+            <div>
+              <div class="post">
+                <img
+                  class="bottom-grid"
+                  src="images/car.png"
+                  height="260px"
+                  width="400px"
+                />
+              </div>
+            </div>
+            <div>
+              <div class="post">
+                <img
+                  class="bottom-grid"
+                  src="images/house.png"
+                  height="260px"
+                  width="400px"
+                />
+              </div>
+            </div>
+
+            <div>
+              <div class="post">
+                <img
+                  class="bottom-grid"
+                  src="images/drugs.png"
+                  height="260px"
+                  width="360px"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="main-container">
+        <div class="s3">
+          <div class="post-wrapper">
+            <div class="d-flex">
+              <div>
+                <div class="slideshow-container">
+                  <div class="mySlides">
+             
+                    <!-- <img src="img_nature_wide.jpg" style="width:100%"> -->
+                    <div id="card-warp" class="d-flex">
+                      <img
+                        class="my-4 mx-5"
+                        src="images/woman.png"
+                        height="400px"
+                        width="200px"
+                      />
+
+                      <div class="my-4 mx-3 col-md-5">
+                        <h2>Georgia Darcy</h2>
+                        <p class="position my-3">The agency founder</p>
+                        <p class="founder">
+                          With over twenty years of industry experience,
+                          'Darcy's insurance products' has learned a lot. The
+                          one thing we know for sure is that we're all about
+                          you. If you find searching for insurance frustrating,
+                          we are here to help.
+                        </p>
+
+                        <button class="my-4 btn btn-get" type="submit">
+                          Get a consultation
+                        </button>
+                      </div>
+                    </div>
+
+                  </div>
+
+                  <div class="mySlides fade">
+                    <div id="card-warp" class="d-flex">
+                        <img
+                          class="my-4 mx-5"
+                          src="images/woman.png"
+                          height="400px"
+                          width="200px"
+                        />
+  
+                        <div class="my-4 mx-3 col-md-5">
+                          <h2>Emiko Sato</h2>
+                          <p class="position my-3">Insurance appraiser</p>
+                          <p class="founder">
+                            Hi! I estimate the value of the insured items and evaluate the insured events.
+                            Also, I conduct investigations, inspecting damaged cars and buildings. Therefore,
+                            I have a great responsibility for providing insurance to our clients. I hope you will be comfortable with us.
+                          </p>
+  
+                          <button class="my-4 btn btn-get" type="submit">
+                            Get a consultation
+                          </button>
+                        </div>
+                      </div>
+                  </div>
+
+                  <div class="mySlides fade">
+                    <div class="numbertext">3 / 3</div>
+                    <img src="img_mountains_wide.jpg" style="width: 100%" />
+                    <div class="text">Caption Three</div>
+                  </div>
+
+                </div>
+           
+
+                <div class="slider-dots">
+                  <span class="dot"></span>
+                  <span class="dot"></span>
+                  <span class="dot"></span>
+                  <span class="dot"></span>
+                </div>
+              </div>
+
+              <img
+                class="mb-2 star-align"
+                src="images/star.png"
+                height="40px"
+                width="40px"
+              />
+              <img
+                class="mb-2 expert-align"
+                src="images/expert.png"
+                height="250px"
+                width="250px"
+              />
+
+
+            </div>
+
+            <!-- <div>
+                    <div class="post">
+                        <img class="" src="images/diney.png" height="400px" width="200px">
+                    
+                    </div>
+                </div>
+                
+                <div>
+                    <div class="post">
+                        <img class="post-align" src="images/best-choice.png" height="400px" width="400px">
+                      
+                    </div>
+                </div> -->
+          </div>
+        </div>
+      </section>
+
+
+      <section class="main-container my-4">
+        <div class="s4">
+          <div class="s4-wrapper">
+            <div>
+                <div class="post">
+                  <img
+                    class=""
+                    src="images/step.png"
+                    height="350px"
+                    width="250px"
+                  />
+                </div>
+              </div>
+              
+              <div class="middle-post">
+              <div id="preview">
+                <img
+                  class="mb-2"
+                  src="images/star.png"
+                  height="40px"
+                  width="40px"
+                />
+                <p class="col-md-10" >
+                  Participate in the <a href="" class="link">loyalty program</a>. Pay for the services online
+                  to get bonuses for our other services. We have a lot of bonuses!
+                </p>
+              </div>
+              <div id="preview" class="my-5">
+                <img
+                  class="mb-2"
+                  src="images/star.png"
+                  height="40px"
+                  width="40px"
+                />
+                <p class="col-md-10">
+                  You can help other people: choose a donation
+                  fund and share the link with your friends!
+                </p>
+              </div>
+
+              <div>
+                <button class="btn btn-outline" type="submit">
+                    Choose a fund
+                  </button>
+              </div>
+             
+             </div>
+       
+  
+             
+                <div class="right-post">
+                  <img
+                    src="images/holdballoon.png"
+                    height="525px"
+                    width="300px"
+                  />
+              
+              </div>
+            </div>
+          </div>
+       
+      </section>
+
+      <section class="main-container">
+        <div class="s5">
+          <div class="post-wrapper">
+            <div class="d-flex">
+                <div>
+                <img
+                src="images/number.png"
+                height="60px"
+                width="300px"
+              />
+
+              <div class="mt-5 mb-3 d-flex">
+                <button id="style" class="btn default" type="submit">
+                    Travel
+                  </button>
+                <button id="style" class="btn btn-no-border" type="submit">
+                    Health
+                  </button>
+                <button id="style" class="btn btn-no-border" type="submit">
+                    CASCO
+                  </button>
+                <button id="style" class="btn btn-no-border" type="submit">
+                    Mortgage
+                  </button>
+                <button id="style" class="btn btn-no-border" type="submit">
+                    Fire
+                  </button>
+              </div>
+
+              <div class="mb-4 d-flex">
+                <div>
+                    <label id="label-info">Enter the country</label>
+                    <input class="info" type="text" value="Austrialia"/>
+                </div>
+               
+                <div class="mx-3">
+                    <label id="label-info">Choose travel dates</label>
+                    <input class="info" type="date"/>
+                </div>
+               
+              </div>
+            
+
+              <button class="btn btn-pink" type="submit">
+                Calculate
+              </button>
+                </div>
+
+                <div>
+                
+                <div class="services">
+                    <h6>Insurance Services</h6>
+                    <div class="d-flex mt-3">
+                       <p class="details"> Medical expenses</p>
+                     <span class="details mx-3">Family health insurance</span>  
+                    
+                    </div>
+                    <div class="d-flex">
+                        <p class="details">Vehicle damage </p>
+                        <p class="details mx-3">Property loss </p>
+                        <p class="details mx-1">Fire </p>
+                    </div>
+                   
+
+                </div>
+             
+                <div class="services my-4">
+                    <h6>Company</h6>
+                    <div class="d-flex mt-3">
+                       <p class="details ">About us</p>
+                     <span class="details mx-2">Career</span>  
+                     <span class="details mx-1">Help</span>  
+                     <span class="details mx-1">FAQ</span>  
+                     <p class="details mx-2">Blog</p>
+                    
+                    </div>
+                 
+                   
+
+                </div>
+
+                <div class="services my-4">
+                    <h6>Bonus</h6>
+                    <div class="d-flex mt-3">
+                       <p class="details ">Gift certificate</p>
+                     <span class="details mx-2">Affiliate Program</span>  
+                     <span class="details mx-1">Trainings</span>  
+                     
+                    
+                    </div>
+                 
+                   
+
+                </div>
+                    
+            </div>
+
+            </div>
+
+           
+          </div>
+        </div>
+      </section>
+
+       <!---Footer-->
+       <div class="mb-5">
+       
+       <footer class="main-container my-5 ">
+        <div class="container">
+          <div class="row ">
+            <div class="col-md-6 d-flex f-note">
+                <img
+                src="images/white-logo.png"
+                class="mr-auto"
+                routerLink="/"
+                style="max-height: 40px; cursor: pointer"
+                alt="logo"
+              />
+              <p class="mb-0 mx-4 my-2 f-note">Darcy's insurance products</p>
+            </div>
+            <div class="col-md-6 text-md-end">
+              <div >
+                <a href="" class="f-note" >Privacy Policy</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <div class="my-4 greeting-wrapper"></div>
+    </div>
+
+    </div>
+
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"
+        
+      >
+    let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+    
+    </script>
+    
+  </body>
+</html>
